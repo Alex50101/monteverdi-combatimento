@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink"
+  meiversion="3.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Combatimento di Tancredi et Clorinda</title>
+        <respStmt>
+          <resp>komponiert von:</resp>
+          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118583700"
+            >Claudio Monteverdi</persName>
+          <resp>kodiert von:</resp>
+          <persName role="encoder" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="1062767683"
+            >Alexey (Oleksii) Sapov </persName>
+          <persName role="editor" xml:id="ao.spv" auth="GND" auth.uri="http://d-nb.info/gnd"
+            codedval="1062767683">Alexey (Oleksii) Sapov </persName>
+        </respStmt>
+      </titleStmt>
+      <pubStmt>
+        <unpub/>
+      </pubStmt>
+      <sourceDesc>
+        <source n="1" xml:id="V" type="digital-representation">
+          <titleStmt>
+            <title>Combatimento di Tancredi et Clorinda</title>
+            <composer><persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd"
+                codedval="118583700">Claudio Monteverdi</persName></composer>
+          </titleStmt>
+          <pubStmt>
+            <publisher>
+              <persName role="editor">Alessandro Vincenti</persName>
+              <address>
+                <addrLine><geogName>Vendig</geogName></addrLine>
+                <addrLine><geogName>Italien</geogName></addrLine>
+              </address>
+              <date>1638</date>
+            </publisher>
+            <availability>
+              <useRestrict>open access for private use and scholarly research</useRestrict>
+              <distributor>IMSLP</distributor>
+            </availability>
+          </pubStmt>
+          <seriesStmt>
+            <title>Madrigale guerrieri, et amorosi</title>
+            <title type="subordinate">Band 8</title>
+          </seriesStmt>
+        </source>
+        <source n="2" xml:id="T" type="digital-representation">
+          <titleStmt>
+            <title>Combatimento di Tancredi et Clorinda</title>
+            <composer><persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd"
+                codedval="118583700">Claudio Monteverdi</persName></composer>
+          </titleStmt>
+          <pubStmt>
+            <publisher>
+              <persName role="editor">Luigi Torchi</persName>
+              <address>
+                <addrLine><geogName>Mailand</geogName></addrLine>
+                <addrLine><geogName>Italien</geogName></addrLine>
+              </address>
+              <date>1908</date>
+            </publisher>
+            <availability>
+              <useRestrict>open access for private use and scholarly research</useRestrict>
+              <distributor>IMSLP</distributor>
+            </availability>
+          </pubStmt>
+          <seriesStmt>
+            <title>L'Arte Musicale in Italia</title>
+            <title type="subordinate">Band 6</title>
+          </seriesStmt>
+        </source>
+        <source n="3" xml:id="M" type="digital-representation">
+          <titleStmt>
+            <title>Combatimento di Tancredi et Clorinda</title>
+            <composer><persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd"
+              codedval="118583700">Claudio Monteverdi</persName></composer>
+          </titleStmt>
+          <pubStmt>
+            <publisher>
+              <persName role="editor">Gian Malipiero</persName>
+              <address>
+                <addrLine><geogName>Wien</geogName></addrLine>
+                <addrLine><geogName>Österreich</geogName></addrLine>
+              </address>
+              <date>1967</date>
+            </publisher>                     
+          </pubStmt>
+          <seriesStmt>
+            <title>Madrigali guerrieri et amorosi</title>
+            <title type="subordinate">Band 8</title>
+          </seriesStmt>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>                       
+        <application xml:id="oxygen" version="18.1">
+          <name type="XML-editor">&lt;oXygen/&gt;XML Editor</name>
+        </application>        
+      </appInfo>
+      <editorialDecl>
+        <p>Als Referenztext gilt der Erstdruck von Alessandro Vincenti. Das Erscheinungsbild
+          von Noten und Schl&#252;&#223;eln sowie Bezeichnung des Generalbasses wurden
+          modernisiert. Die C-Schl&#252;ssel in den Streichern-Stimmen sowie Richtung der
+          Notenh&#228;lse wurden original belassen. Somit ähnelt sich der Notentext stark
+          der Torchi-Ausgabe. Die Unterschiede zwischen allen drei Asugaben sind farblich
+          gekennzeichnet: <em>Vincenti</em>, <em class="Torchi">Torchi</em>, <em
+            class="Malipiero">Malipiero</em> und beziehen sich vor allem auf das Tempo,
+          Dynamikanweisungen sowie Ausf&#252;hrung des Generalbasses. Eine
+          zus&#228;tzliche Zeile f&#252;r <em>Pianoforte</em> aus der Torchi-Ausgabe sowie
+          jeweils ein leerer Takt am Anfang und am Ende des Beispiels wurden aus
+          technischen Gr&#252;nden in den Referenztext hinzugef&#252;gt.</p>
+      </editorialDecl>     
+      <samplingDecl>
+        <p>Die Kodierung beinhaltet Takte 175-176.</p>
+      </samplingDecl>
+    </encodingDesc>
+    <workDesc>
+      <work n="1">      
+        <titleStmt>
+          <title>Combatimento di Tancredi et Clorind</title>
+          <respStmt>
+            <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118583700"
+              >Claudio Monteverdi</persName
+          </respStmt>
+        </titleStmt>             
+        <context type="period-of-music-history">Rennaissance/Baroque</context>       
+      </work>
+    </workDesc>
+    <revisionDesc>
+      <change n="1">
+        <respStmt>
+          <persName>Alexey Sapov</persName>
+        </respStmt>
+        <changeDesc>
+          <p>Started encoding</p>
+        </changeDesc>
+        <date isodate="2017-10-17" resp="#ao.spv"/>
+      </change>
+      <change n="2">
+        <respStmt>
+          <persName>Alexey Sapov</persName>
+        </respStmt>
+        <changeDesc>
+          <p>Finished encoding</p>
+        </changeDesc>
+        <date isodate="2017-10-31" resp="#ao.spv"/>
+      </change>
+    </revisionDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef meter.count="4" meter.unit="4" meter.sym="common" key.mode="major">
+            <staffGrp>
+              <!-- barthru="true"-->
+              <staffGrp symbol="bracket">
+                <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G">
+                  <label>Violino / <rend color="#f40944" rend="bold">Violino</rend> / <rend
+                      color="#ff9900" rend="bold">Viola soprano</rend></label>
+                </staffDef>
+                <staffDef n="2" xml:id="P2" lines="5" clef.line="1" clef.shape="C">
+                  <label>Violino / <rend color="#f40944" rend="bold">Violino</rend> / <rend
+                      color="#ff9900" rend="bold">Viola alto</rend></label>
+                </staffDef>
+                <staffDef n="3" xml:id="P3" lines="5" clef.line="4" clef.shape="C">
+                  <label>Viola da brazzio / <rend color="#f40944" rend="bold">Viola da Brazzo</rend>
+                    / <rend color="#ff9900" rend="bold">Viola tenore</rend>
+                  </label>
+                </staffDef>
+              </staffGrp>
+              <staffDef n="4" xml:id="P4" label="Testo" label.abbr="T." lines="5" clef.line="4"
+                clef.shape="C"/>
+              <staffGrp symbol="brace" barthru="true">
+                <label>
+                  <rend color="#ff9900" rend="bold">Pianoforte</rend>
+                </label>
+                <staffDef n="5" xml:id="P5" clef.line="2" clef.shape="G" lines="5"/>
+                <staffDef n="6" xml:id="P6" lines="5" clef.line="4" clef.shape="F">
+                  <label><rend rend="bold">Basso Continuo</rend>
+                  </label>
+                </staffDef>
+              </staffGrp>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <measure n="0">
+              <staff n="1">
+                <layer n="1">
+                  <space/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1">
+                  <space/>
+                </layer>
+              </staff>
+              <staff n="3">
+                <layer n="1">
+                  <space/>
+                </layer>
+              </staff>
+              <staff n="4">
+                <layer n="1">
+                  <space/>
+                </layer>
+              </staff>
+              <staff n="5">
+                <layer n="1">
+                  <space/>
+                </layer>
+              </staff>
+              <staff n="6">
+                <layer n="1">
+                  <space/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="175">
+
+              <staff n="1">
+                <layer n="1">
+                  <choice xml:id="m175ch1">
+                    <orig label="Vincenti">
+                      <note pname="b" oct="4" dur="4" xml:id="m175note1-vincenti" stem.dir="up"/>
+                    </orig>
+                    <reg label="Torchi" xml:id="m175reg1" resp="T-1908">
+                      <note pname="b" oct="4" dur="4" color="black" xml:id="m175note1-torchi"
+                        stem.dir="up"/>
+                    </reg>
+                    <reg label="Malipiero" xml:id="m175reg2" resp="M-1967">
+                      <note pname="b" oct="4" dur="4" color="black" xml:id="m175note1-malipiero"
+                        stem.dir="up"/>
+                    </reg>
+                  </choice>
+                  <rest dur="4"/>
+                  <note pname="b" oct="4" dur="4" stem.dir="up"/>
+                  <rest dur="4"/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1">
+                  <note pname="g" oct="4" dur="4" stem.dir="up"/>
+                  <rest dur="4"/>
+                  <note pname="g" oct="4" dur="4" stem.dir="up"/>
+                  <rest dur="4"/>
+                </layer>
+              </staff>
+              <staff n="3">
+                <layer n="1">
+                  <note pname="b" oct="3" dur="4"/>
+                  <rest dur="4"/>
+                  <note pname="b" oct="3" dur="4"/>
+                  <rest dur="4"/>
+                </layer>
+              </staff>
+              <staff n="4">
+                <layer n="1">
+                  <note pname="g" oct="3" dur="8" stem.dir="up">
+                    <verse>
+                      <syl wordpos="i" con="d">gio</syl>
+                    </verse>
+                  </note>
+                  <note pname="g" oct="3" dur="8" stem.dir="up">
+                    <verse>
+                      <syl wordpos="t" con="d">va</syl>
+                    </verse>
+                  </note>
+                  <note pname="b" oct="3" dur="8" stem.dir="down">
+                    <verse>
+                      <syl wordpos="i" con="d">dan</syl>
+                    </verse>
+                  </note>
+                  <note pname="b" oct="3" dur="8" stem.dir="down">
+                    <verse>
+                      <syl wordpos="t" con="d">&#x17f;i</syl>
+                    </verse>
+                  </note>
+                  <rest dur="8"/>
+                  <note pname="a" oct="3" dur="8" stem.dir="up">
+                    <verse>
+                      <syl>con</syl>
+                    </verse>
+                  </note>
+                  <note pname="b" oct="3" dur="8" stem.dir="down">
+                    <verse>
+                      <syl wordpos="i" con="d">po</syl>
+                    </verse>
+                  </note>
+                  <note pname="b" oct="3" dur="8" stem.dir="down">
+                    <verse>
+                      <syl wordpos="t" con="d">mi</syl>
+                    </verse>
+                  </note>
+                </layer>
+              </staff>
+              <choice xml:id="m175ch2">
+                <orig xml:id="m175orig" label="Vincenti" resp="#V">
+                  <staff n="5">
+                    <layer n="1">
+                      <mRest dur="1"/>
+                    </layer>
+                  </staff>
+                  <staff n="6">
+                    <layer n="1">
+                      <note pname="g" oct="2" dur="4"/>
+                      <rest dur="4"/>
+                      <note pname="g" oct="2" dur="4"/>
+                      <rest dur="4"/>
+                    </layer>
+                  </staff></orig>
+                <reg xml:id="m175-ch2-reg1" label="Torchi" resp="#T">
+                  <staff n="5">
+                    <layer n="1">
+                      <chord dur="4">
+                        <note pname="b" oct="5" color="#ff9900"/>
+                        <note pname="d" oct="6" color="#ff9900"/>
+                        <note pname="g" oct="6" color="#ff9900"/>
+                      </chord>
+                      <rest dur="4" color="#ff9900"/>
+                      <chord dur="4">
+                        <note pname="b" oct="5" color="#ff9900"/>
+                        <note pname="d" oct="6" color="#ff9900"/>
+                        <note pname="g" oct="6" color="#ff9900"/>
+                      </chord>
+                      <rest dur="4" color="#ff9900"/>
+                    </layer>
+                  </staff>
+                  <staff n="6">
+                    <layer n="1">
+                      <note pname="g" oct="2" dur="4" color="#ff9900"/>
+                      <rest dur="4" color="#ff9900"/>
+                      <chord dur="4">
+                        <note pname="g" oct="2" color="#ff9900"/>
+                        <note pname="d" oct="3" color="#ff9900"/>
+                        <note pname="b" oct="3" color="#ff9900"/>
+                      </chord>
+                      <rest dur="4" color="#ff9900"/>
+                    </layer>
+                  </staff>
+                </reg>
+                <reg xml:id="m175-ch2-reg2" label="Malipiero" resp="#M">
+                  <staff n="5">
+                    <layer n="1">
+                      <chord dur="4">
+                        <note pname="g" oct="3" color="#f40944"/>
+                        <note pname="b" oct="3" color="#f40944"/>
+                        <note pname="d" oct="4" color="#f40944"/>
+                      </chord>
+                      <rest dur="4" color="#f40944"/>
+                      <chord dur="4">
+                        <note pname="g" oct="3" color="#f40944"/>
+                        <note pname="b" oct="3" color="#f40944"/>
+                        <note pname="d" oct="4" color="#f40944"/>
+                      </chord>
+                      <rest dur="4" color="#f40944"/>
+                    </layer>
+                  </staff>
+                  <staff n="6">
+                    <layer n="1">
+                      <note pname="g" oct="2" dur="4" color="#f40944"/>
+                      <rest dur="4" color="#f40944"/>
+                      <note pname="g" oct="2" dur="4" color="#f40944"/>
+                      <rest dur="4" color="#f40944"/>
+                    </layer>
+                  </staff>
+                </reg>
+
+              </choice>
+
+              <harm xml:id="m1-h1" dur="1" place="below" staff="6" startid="#m1-harmony1-orig">
+                <fb>
+                  <f>♯</f>
+                </fb>
+              </harm>
+              <harm xml:id="m1-h1-r1" dur="1" place="below" staff="6" startid="#m1-harmony2-orig">
+                <fb>
+                  <f>♯</f>
+                </fb>
+              </harm>
+              <tempo startid="#m1s5-l1n1.2" place="above" staff="6" mm.unit="4" mm="120"><rend
+                  fontfam="Times New Roman" fontstyle="normal" color="#f40944">In due, ma
+                  lento</rend>
+              </tempo>
+              <dir startid="#m175note1-vincenti" place="above" staff="1">
+                <rend fontfam="Times New Roman" fontstyle="italic" color="black" rend="bold">Qui
+                  &#x17f;i la&#x17f;ia,&amp;&#x17f;i &#x17f;trepp[...]<lb/> la cord[...] conduoi
+                  deti.</rend>
+              </dir>
+              <!--<dir startid="#m175note1-torchi" place="above" staff="1">
+                <rend fontfam="Times New Roman" fontstyle="italic" color="black" rend="bold"/></dir>-->
+              <dir startid="#m175note1-malipiero" place="above" staff="1">
+                <rend fontfam="Times New Roman" fontstyle="italic" color="#f40944" rend="bold">Qui
+                  si lascia l'arco, e si strappano le corde con duoi diti</rend>
+              </dir>
+            </measure>
+
+            <measure n="176">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="d" oct="5" dur="4" stem.dir="down"/>
+                  <rest dur="4"/>
+                  <note pname="d" oct="5" dur="4" stem.dir="down"/>
+                  <rest dur="4"/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1">
+                  <note pname="b" oct="4" dur="4" stem.dir="down"/>
+                  <rest dur="4"/>
+                  <note pname="b" oct="4" dur="4" stem.dir="down"/>
+                  <rest dur="4"/>
+                </layer>
+              </staff>
+              <staff n="3">
+                <layer n="1">
+                  <note pname="e" oct="4" dur="4" stem.dir="down"/>
+                  <rest dur="4"/>
+                  <note pname="e" oct="4" dur="4" stem.dir="down"/>
+                  <rest dur="4"/>
+                </layer>
+              </staff>
+              <staff n="4">
+                <layer n="1">
+                  <!-- <choice xml:id="m176ch1" label="Vincenti">
+                    <orig xml:id="m176ch1-orig">
+                      <rest dur="16"/>
+                    </orig>
+                    <reg xml:id="m176ch1-reg1" label="Malipiero">-->
+                  <rest dur="16">
+                    <!-- <verse>
+                          <syl>e</syl>
+                        </verse>-->
+                  </rest>
+                  <!--</reg>
+                  </choice>-->
+                  <note pname="b" oct="3" dur="16" stem.dir="down">
+                    <verse>
+                      <syl wordpos="i" con="d">in</syl>
+                    </verse>
+                  </note>
+                  <note pname="b" oct="3" dur="16" stem.dir="down">
+                    <verse>
+                      <syl wordpos="m" con="d">fe</syl>
+                    </verse>
+                  </note>
+                  <note pname="a" oct="3" dur="16" stem.dir="up">
+                    <verse>
+                      <syl wordpos="m" con="d">lo</syl>
+                    </verse>
+                  </note>
+                  <note pname="b" oct="3" dur="8" stem.dir="down">
+                    <verse>
+                      <syl wordpos="m" con="d">ni</syl>
+                    </verse>
+                  </note>
+                  <note pname="b" oct="3" dur="8" stem.dir="down">
+                    <verse>
+                      <syl wordpos="t">ti</syl>
+                    </verse>
+                  </note>
+                  <rest dur="8"/>
+                  <note pname="a" oct="3" dur="8" stem.dir="up">
+                    <verse>
+                      <syl>e</syl>
+                    </verse>
+                  </note>
+                  <note pname="b" oct="3" dur="8" stem.dir="down">
+                    <verse>
+                      <syl wordpos="i" con="d">cru</syl>
+                    </verse>
+                  </note>
+                  <note pname="b" oct="3" dur="8" stem.dir="down">
+                    <verse>
+                      <syl wordpos="t" con="d">di</syl>
+                    </verse>
+                  </note>
+                </layer>
+              </staff>
+              <choice xml:id="m175ch2">
+                <orig xml:id="m175orig" label="Vincenti">
+                  <staff n="5">
+                    <layer n="1">
+                      <mRest dur="1"/>
+                    </layer>
+                  </staff>
+                  <staff n="6">
+                    <layer n="1">
+                      <note pname="g" oct="2" dur="4"/>
+                      <rest dur="4"/>
+                      <note pname="g" oct="2" dur="4"/>
+                      <rest dur="4"/>
+                    </layer>
+                  </staff></orig>
+                <reg xml:id="m175-ch2-reg1" label="Torchi">
+                  <staff n="5">
+                    <layer n="1">
+                      <chord dur="4">
+                        <note pname="b" oct="5" color="#ff9900"/>
+                        <note pname="d" oct="6" color="#ff9900"/>
+                        <note pname="g" oct="6" color="#ff9900"/>
+                      </chord>
+                      <rest dur="4" color="#ff9900"/>
+                      <chord dur="4">
+                        <note pname="b" oct="5" color="#ff9900"/>
+                        <note pname="d" oct="6" color="#ff9900"/>
+                        <note pname="g" oct="6" color="#ff9900"/>
+                      </chord>
+                      <rest dur="4" color="#ff9900"/>
+                    </layer>
+                  </staff>
+                  <staff n="6">
+                    <layer n="1">
+                      <chord dur="4">
+                        <note pname="g" oct="2" color="#ff9900"/>
+                        <note pname="d" oct="3" color="#ff9900"/>
+                        <note pname="b" oct="3" color="#ff9900"/>
+                      </chord>
+                      <rest dur="4" color="#ff9900"/>
+                      <chord dur="4">
+                        <note pname="g" oct="2" color="#ff9900"/>
+                        <note pname="d" oct="3" color="#ff9900"/>
+                        <note pname="b" oct="3" color="#ff9900"/>
+                      </chord>
+                      <rest dur="4" color="#ff9900"/>
+                    </layer>
+                  </staff>
+                </reg>
+                <reg xml:id="m175-ch2-reg2" label="Malipiero">
+                  <staff n="5">
+                    <layer n="1">
+                      <chord dur="4">
+                        <note pname="g" oct="3" color="#f40944"/>
+                        <note pname="b" oct="3" color="#f40944"/>
+                        <note pname="d" oct="4" color="#f40944"/>
+                      </chord>
+                      <rest dur="4" color="#f40944"/>
+                      <chord dur="4">
+                        <note pname="g" oct="3" color="#f40944"/>
+                        <note pname="b" oct="3" color="#f40944"/>
+                        <note pname="d" oct="4" color="#f40944"/>
+                      </chord>
+                      <rest dur="4" color="#f40944"/>
+                    </layer>
+                  </staff>
+                  <staff n="6">
+                    <layer n="1">
+                      <note pname="g" oct="2" dur="4" color="#f40944"/>
+                      <rest dur="4" color="#f40944"/>
+                      <note pname="g" oct="2" dur="4" color="#f40944"/>
+                      <rest dur="4" color="#f40944"/>
+                    </layer>
+                  </staff>
+                </reg>
+
+              </choice>
+
+              <harm xml:id="m1-h1" dur="1" place="below" staff="6" startid="#m1-harmony1-orig">
+                <fb>
+                  <f>♯</f>
+                </fb>
+              </harm>
+              <harm xml:id="m1-h1-r1" dur="1" place="below" staff="6" startid="#m1-harmony2-orig">
+                <fb>
+                  <f>♯</f>
+                </fb>
+              </harm>
+              <tempo startid="#m1s5-l1n1.2" place="above" staff="6" mm.unit="4" mm="120"><rend
+                  fontfam="Times New Roman" fontstyle="normal" color="#f40944">In due, ma
+                  lento</rend>
+              </tempo>
+              <dir startid="#m175note1-vincenti" place="above" staff="1">
+                <rend fontfam="Times New Roman" fontstyle="italic" color="black" rend="bold">Qui
+                  &#x17f;i la&#x17f;ia,&amp;&#x17f;i &#x17f;trepp[...]<lb/> la cord[...] conduoi
+                  deti.</rend>
+              </dir>
+              <!--<dir startid="#m175note1-torchi" place="above" staff="1">
+                <rend fontfam="Times New Roman" fontstyle="italic" color="black" rend="bold"/></dir>-->
+              <dir startid="#m175note1-malipiero" place="above" staff="1">
+                <rend fontfam="Times New Roman" fontstyle="italic" color="#f40944" rend="bold">Qui
+                  si lascia l'arco, e si strappano le corde con duoi diti</rend>
+              </dir>
+
+            </measure>
+            <measure n="2">
+              <staff n="1">
+                <layer n="1">
+                  <space/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1">
+                  <space/>
+                </layer>
+              </staff>
+              <staff n="3">
+                <layer n="1">
+                  <space/>
+                </layer>
+              </staff>
+              <staff n="4">
+                <layer n="1">
+                  <space/>
+                </layer>
+              </staff>
+              <staff n="5">
+                <layer n="1">
+                  <space/>
+                </layer>
+              </staff>
+              <staff n="6">
+                <layer n="1">
+                  <space/>
+                </layer>
+              </staff>
+            </measure>
+
+
+
+
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
