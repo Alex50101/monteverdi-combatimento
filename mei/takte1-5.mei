@@ -31,7 +31,7 @@
             <publisher>
               <persName role="editor">Alessandro Vincenti</persName>
               <address>
-                <addrLine><geogName>Vendig</geogName></addrLine>
+                <addrLine><geogName>Venedig</geogName></addrLine>
                 <addrLine><geogName>Italien</geogName></addrLine>
               </address>
               <date>1638</date>
@@ -71,7 +71,7 @@
             <title type="subordinate">Band 6</title>
           </seriesStmt>
         </source>
-        <source n="3" xml:id="M" type="digital-representation">
+        <source n="3" xml:id="M" type="print+digital-representation">
           <titleStmt>
             <title>Combatimento di Tancredi et Clorinda</title>
             <composer><persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd"
@@ -147,6 +147,15 @@
           <p>Finished encoding</p>
         </changeDesc>
         <date isodate="2017-10-31" resp="#ao.spv"/>
+      </change>
+      <change n="3">
+        <respStmt>
+          <persName>Alexey Sapov</persName>
+        </respStmt>
+        <changeDesc>
+          <p>Finished project</p>
+        </changeDesc>
+        <date isodate="2018-02-03" resp="#ao.spv"/>
       </change>
     </revisionDesc>
   </meiHead>
@@ -373,10 +382,7 @@
                 </fb>
               </harm>                        
             </measure>
-            <measure n="4">
-              
-              
-              
+            <measure n="4">                                        
               <staff n="1">
                 <layer n="1">
                   <note pname="a" oct="3" dur="4" stem.dir="up" dots="1">
