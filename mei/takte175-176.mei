@@ -8,12 +8,12 @@
         <title>Combatimento di Tancredi et Clorinda</title>
         <respStmt>
           <resp>komponiert von:</resp>
-          <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118583700"
+          <persName role="composer"   authority="GND" authURI="http://d-nb.info/gnd" codedval="118583700"
             >Claudio Monteverdi</persName>
           <resp>kodiert von:</resp>
-          <persName role="encoder" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="1062767683"
+          <persName role="encoder" authority="GND" authURI="http://d-nb.info/gnd" codedval="1062767683"
             >Alexey (Oleksii) Sapov </persName>
-          <persName role="editor" xml:id="ao.spv" auth="GND" auth.uri="http://d-nb.info/gnd"
+          <persName role="editor" xml:id="OS" authority="GND" authURI="http://d-nb.info/gnd"
             codedval="1062767683">Alexey (Oleksii) Sapov </persName>
         </respStmt>
       </titleStmt>
@@ -21,17 +21,17 @@
         <unpub/>
       </pubStmt>
       <sourceDesc>
-        <source n="1" xml:id="V" type="digital-representation">
+        <source n="1" xml:id="V" label="digital-representation">
           <titleStmt>
             <title>Combatimento di Tancredi et Clorinda</title>
-            <composer><persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd"
-                codedval="118583700">Claudio Monteverdi</persName></composer>
+            <composer><persName role="composer" authority="GND" authURI="http://d-nb.info/gnd"
+              codedval="118583700">Claudio Monteverdi</persName></composer>
           </titleStmt>
           <pubStmt>
             <publisher>
               <persName role="editor">Alessandro Vincenti</persName>
               <address>
-                <addrLine><geogName>Vendig</geogName></addrLine>
+                <addrLine><geogName>Venedig</geogName></addrLine>
                 <addrLine><geogName>Italien</geogName></addrLine>
               </address>
               <date>1638</date>
@@ -46,11 +46,11 @@
             <title type="subordinate">Band 8</title>
           </seriesStmt>
         </source>
-        <source n="2" xml:id="T" type="digital-representation">
+        <source n="2" xml:id="T" label="digital-representation">
           <titleStmt>
             <title>Combatimento di Tancredi et Clorinda</title>
-            <composer><persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd"
-                codedval="118583700">Claudio Monteverdi</persName></composer>
+            <composer><persName role="composer" authority="GND" authURI="http://d-nb.info/gnd"
+              codedval="118583700">Claudio Monteverdi</persName></composer>
           </titleStmt>
           <pubStmt>
             <publisher>
@@ -71,10 +71,10 @@
             <title type="subordinate">Band 6</title>
           </seriesStmt>
         </source>
-        <source n="3" xml:id="M" type="digital-representation">
+        <source n="3" xml:id="M"  label="print+digital-representation">
           <titleStmt>
             <title>Combatimento di Tancredi et Clorinda</title>
-            <composer><persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd"
+            <composer><persName role="composer" authority="GND" authURI="http://d-nb.info/gnd"
               codedval="118583700">Claudio Monteverdi</persName></composer>
           </titleStmt>
           <pubStmt>
@@ -106,15 +106,15 @@
           modernisiert. Die C-Schl&#252;ssel in den Streichern-Stimmen sowie Richtung der
           Notenh&#228;lse wurden original belassen. Somit ähnelt sich der Notentext stark
           der Torchi-Ausgabe. Die Unterschiede zwischen allen drei Asugaben sind farblich
-          gekennzeichnet: <em>Vincenti</em>, <em class="Torchi">Torchi</em>, <em
-            class="Malipiero">Malipiero</em> und beziehen sich vor allem auf das Tempo,
+          gekennzeichnet: Vincenti,Torchi, 
+          class="Malipiero">Malipiero und beziehen sich vor allem auf das Tempo,
           Dynamikanweisungen sowie Ausf&#252;hrung des Generalbasses. Eine
-          zus&#228;tzliche Zeile f&#252;r <em>Pianoforte</em> aus der Torchi-Ausgabe sowie
+          zus&#228;tzliche Zeile f&#252;r Pianoforte aus der Torchi-Ausgabe sowie
           jeweils ein leerer Takt am Anfang und am Ende des Beispiels wurden aus
           technischen Gr&#252;nden in den Referenztext hinzugef&#252;gt.</p>
       </editorialDecl>     
       <samplingDecl>
-        <p>Die Kodierung beinhaltet Takte 175-176.</p>
+        <p>Die Kodierung beinhaltet Takte 1-5.</p>
       </samplingDecl>
     </encodingDesc>
     <workDesc>
@@ -122,11 +122,11 @@
         <titleStmt>
           <title>Combatimento di Tancredi et Clorind</title>
           <respStmt>
-            <persName role="composer" auth="GND" auth.uri="http://d-nb.info/gnd" codedval="118583700"
+            <persName role="composer" authority="GND" authURI="http://d-nb.info/gnd" codedval="118583700"
               >Claudio Monteverdi</persName>
           </respStmt>
         </titleStmt>             
-        <context type="period-of-music-history">Rennaissance/Baroque</context>       
+        <context label="period-of-music-history">Rennaissance/Baroque</context>       
       </work>
     </workDesc>
     <revisionDesc>
@@ -137,7 +137,7 @@
         <changeDesc>
           <p>Started encoding</p>
         </changeDesc>
-        <date isodate="2017-10-17" resp="#ao.spv"/>
+        <date isodate="2017-10-17" resp="#OS"/>
       </change>
       <change n="2">
         <respStmt>
@@ -146,7 +146,16 @@
         <changeDesc>
           <p>Finished encoding</p>
         </changeDesc>
-        <date isodate="2017-10-31" resp="#ao.spv"/>
+        <date isodate="2017-10-31" resp="#OS"/>
+      </change>
+      <change n="3">
+        <respStmt>
+          <persName>Alexey Sapov</persName>
+        </respStmt>
+        <changeDesc>
+          <p>Finished project</p>
+        </changeDesc>
+        <date isodate="2018-02-03" resp="#OS"/>
       </change>
     </revisionDesc>
   </meiHead>
