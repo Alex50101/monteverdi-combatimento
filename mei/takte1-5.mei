@@ -324,7 +324,7 @@
                 </layer>              
               </staff>
               <choice xml:id="ch5">
-                <orig label="Vincenti">
+                <orig label="Vincenti" resp="#V">
                   <staff n="2">
                     <layer n="1">
                       <mRest xml:id="m3s5-l1r1" dur="1"/>

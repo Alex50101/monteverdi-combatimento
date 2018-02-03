@@ -377,7 +377,6 @@
                     </layer>
                   </staff>
                 </reg>
-
               </choice>
 
               <harm xml:id="m1-h1" dur="1" place="below" staff="6" startid="#m1-harmony1-orig">
@@ -490,7 +489,7 @@
                 </layer>
               </staff>
               <choice xml:id="m175ch2">
-                <orig xml:id="m175orig" label="Vincenti">
+                <orig xml:id="m175orig" label="Vincenti" resp="#V">
                   <staff n="5">
                     <layer n="1">
                       <mRest dur="1"/>
@@ -504,7 +503,7 @@
                       <rest dur="4"/>
                     </layer>
                   </staff></orig>
-                <reg xml:id="m175-ch2-reg1" label="Torchi">
+                <reg xml:id="m175-ch2-reg1" label="Torchi" resp="#T">
                   <staff n="5">
                     <layer n="1">
                       <chord dur="4">
@@ -538,7 +537,7 @@
                     </layer>
                   </staff>
                 </reg>
-                <reg xml:id="m175-ch2-reg2" label="Malipiero">
+                <reg xml:id="m175-ch2-reg2" label="Malipiero" resp="#M">
                   <staff n="5">
                     <layer n="1">
                       <chord dur="4">
@@ -564,7 +563,6 @@
                     </layer>
                   </staff>
                 </reg>
-
               </choice>
 
               <harm xml:id="m1-h1" dur="1" place="below" staff="6" startid="#m1-harmony1-orig">
@@ -592,7 +590,6 @@
                 <rend fontfam="Times New Roman" fontstyle="italic" color="#f40944" rend="bold">Qui
                   si lascia l'arco, e si strappano le corde con duoi diti</rend>
               </dir>
-
             </measure>
             <measure n="2">
               <staff n="1">
@@ -626,10 +623,6 @@
                 </layer>
               </staff>
             </measure>
-
-
-
-
           </section>
         </score>
       </mdiv>
